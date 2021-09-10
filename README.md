@@ -21,4 +21,4 @@ Executar via prompt de comando para enviar a imagem gerada local para o containe
 `docker run --name=api_conversao-temperatura_node --env-file ./.env -p 8080:8070 -d marcioalmeidarosa/conversao-temperatura:1.0`</br>
 
 ## Visualizando a imagem enviada para o container register do docker
-`https://hub.docker.com/repository/docker/marcioalmeidarosa/conversao-temperatura`.
+[Clique para acessar a imagem...](https://hub.docker.com/repository/docker/marcioalmeidarosa/conversao-temperatura)
