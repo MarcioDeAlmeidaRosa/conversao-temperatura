@@ -12,8 +12,8 @@ Este comando irá gerar uma imagem local que conserá ter acesso executando o co
 
 Executar via prompt de comando para executar o container com a imagem gerada: </br></br>
 `docker run --name=api_conversao-temperatura_node --env-file ./.env -p 8080:8070 -d marcioalmeidarosa/conversao-temperatura:1.0`</br></br>
-Este comando irá startar um container que poderá ser visualizado com o comando: </br></br>
-`docker images marcioalmeidarosa/conversao-temperatura`
+Este comando irá listar os container em execução: </br></br>
+`docker ps --filter name=api_conversao-temperatura_node`
 
 ## Enviando a imagem 1.0 local para o container register do docker
 
