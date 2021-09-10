@@ -5,7 +5,7 @@ Api responsável por efetuar a conversão Celsius para Fahrenheit e Fahrenheit p
 
 Executar via prompt de comando dentro da pasta /src: </br></br>
 `docker build --build-arg ARG_NODE_PORT=8080 -t marcioalmeidarosa/conversao-temperatura:1.0 .`</br></br>
-Este comando irá gerar uma imagem local que conserá ter acesso executando o comando: </br></br>
+O comando descrito acima irá gerar uma imagem local que você conseguirá ter acesso executando o comando: </br></br>
 `docker images marcioalmeidarosa/conversao-temperatura`
 
 ## Executando o container com a imagem local
