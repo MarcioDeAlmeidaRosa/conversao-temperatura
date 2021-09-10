@@ -15,10 +15,20 @@ Executar via prompt de comando para executar o container com a imagem gerada: </
 Este comando irá startar um container que poderá ser visualizado com o comando: </br></br>
 `docker images marcioalmeidarosa/conversao-temperatura`
 
-## Enviando a imagem local para o container register do docker
+## Enviando a imagem 1.0 local para o container register do docker
 
-Executar via prompt de comando para enviar a imagem gerada local para o container register docker hub: </br></br>
+Executar via prompt de comando para enviar a imagem 1.0 gerada local para o container register docker hub: </br></br>
 `docker push marcioalmeidarosa/conversao-temperatura:1.0`</br></br>
+
+## Gerando image latest
+
+Executar via prompt de comando para gerar image latest com base na image 1.0: </br></br>
+`docker tag marcioalmeidarosa/conversao-temperatura:1.0 marcioalmeidarosa/conversao-temperatura:latest`</br></br>
+
+## Enviando a imagem latest local para o container register do docker
+
+Executar via prompt de comando para enviar a imagem latest gerada local para o container register docker hub: </br></br>
+`docker push marcioalmeidarosa/conversao-temperatura:latest`</br></br>
 
 ## Visualizando a imagem enviada para o container register do docker
 [Clique para acessar a imagem...](https://hub.docker.com/repository/docker/marcioalmeidarosa/conversao-temperatura)
