@@ -18,7 +18,7 @@ Este comando irá startar um container que poderá ser visualizado com o comando
 ## Enviando a imagem local para o container register do docker
 
 Executar via prompt de comando para enviar a imagem gerada local para o container register docker hub: </br>
-`docker run --name=api_conversao-temperatura_node --env-file ./.env -p 8080:8070 -d marcioalmeidarosa/conversao-temperatura:1.0`</br>
+`docker push marcioalmeidarosa/conversao-temperatura:1.0`</br>
 
 ## Visualizando a imagem enviada para o container register do docker
 [Clique para acessar a imagem...](https://hub.docker.com/repository/docker/marcioalmeidarosa/conversao-temperatura)
